@@ -33,8 +33,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/sunyue1988/sySDImageWebp.git", :tag => "0.0.1" }
 
  
-  s.source_files  = "iOS_Image_Category/**/*.{h,m}"
-
+  s.source_files  = "iOS_Image_Category/*.{h,m}"
+  s.requires_arc  = true
   # s.public_header_files = "Classes/**/*.h"
 
 
